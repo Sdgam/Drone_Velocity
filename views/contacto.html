@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Drone Velocity Online Shop</title>
+        <!-- Link a la hoja de estilos -->
+        <link rel="stylesheet" href="../css/estilos.css">
+        <!--Librería Bootstrap para iconos-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <!--Librería Leaflet de Javascript para el mapa interactivo-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+    </head>
+    <body>
+        <!--ENCABEZADO Y BARRA DE NAVEGACIÓN-->
+        <header>
+            <div class="h1container">
+                <h1><a href="../index.html"><span class="drone">Drone</span><span class="velocity">Velocity</span></a></h1>
+            </div>
+            <div class="navcontainer">
+                <nav class="navBar">
+                    <a class="link" href="../index.html">Inicio</a>
+                    <a class="link" href="./galeria.html">Galería</a>
+                    <a class="link" href="./presupuesto.html">Presupuesto</a>
+                    <a class="link active" href="#">Contacto</a>
+                </nav>   
+            </div>
+        </header>
+        <!--CONTENIDO PRINCIPAL DE LA PÁGINA-->
+        <main>
+            <div class="contactContainer">
+                <h2>Contacto</h2>
+                <p><strong>Empresa:</strong> Drone Velocity S.L</p>
+                <p><strong>Dirección:</strong> C/ Doctor Cerrada 23, local. Zaragoza, España</p>
+                <p><strong>Teléfono:</strong> +123 456 7890</p>
+                <p><strong>Email:</strong> contacto@dronevelocity.com</p>
+            </div>
+            <div class="contactContainer">
+                <h2>Ubicación</h2>
+                <p>(1) Desliza el cursor por el mapa para navegar, verás que nuestra ubicación esta señalada con el marcador azul.</p>
+                <p>(2) Pulsa el botón de "Calcular Ruta" y concede los permisos de ubicación del dispositivo
+                    para que pueda calcular tu posición y la ruta más rápida hasta nuestras oficinas.</p>
+                <div id="map"></div>
+                <div class="buttonContainer">
+                    <button onclick="calcularRuta()">Calcular Ruta</button>
+                </div>
+            </div>
+            
+        </main>
+        <!--FOOTER-->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-link">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="./galeria.html">Galería</a></li>
+                        <li><a href="./presupuesto.html">Presupuesto</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="./avisolegal.html">Aviso Legal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link">
+                    <h4>Dirección</h4>
+                    <p>Nuestras oficinas se encuentran en: <br> C/ Doctor Cerrada 23, Zaragoza.</p>
+                    <br>
+                    <a class="mapbutton" href="#">Ver mapa</a>
+                </div>
+                <div class="footer-link">
+                    <h4>¡Síguenos!</h4>
+                    <div class="social-link">
+                        <a href="https://www.facebook.com/?locale=es_ES"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                        <a href="https://x.com/?lang=es"><i class="bi bi-twitter-x"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!--Insertamos la ubicación de nuestra hoja de Javascript-->
+        <script src="../js/javascript.js"></script>
+    </body>
+</html>
