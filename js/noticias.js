@@ -1,5 +1,3 @@
-// CARGA DINAMICA DE SECCIÓN NOTICIAS EN LA HOME -----------------------------------------------------------------------------------------
-
 document.addEventListener("DOMContentLoaded", function(){
 
     fetch('../data/news.json')
