@@ -24,9 +24,10 @@
                 </nav>   
             </div>
         </header>
+        
         <!--CONTENIDO PRINCIPAL DE LA PÁGINA (FORMULARIO)-->
         <main>
-            <h2 class="h2form">Formulario de Presupuesto</h2>
+            <h2 class="h2form">Formulario de pedido</h2>
             <form id="presupuestoForm" method="GET" target="_self">
                 <fieldset>
                     <legend>Datos de Contacto</legend>
@@ -39,9 +40,12 @@
                     <legend>Configura tu dron</legend>
                     <label>Producto:
                         <select id="producto">
-                            <option value="100" selected>Racer X (Iniciación) - 100€</option>
-                            <option value="200">Racer 4 (Intermedio) - 200€</option>
-                            <option value="300">Racer 5 (Experto) - 300€</option>
+                            <option value="99" selected>Racer X (Iniciación) - 99€</option>
+                            <option value="129">Beta FPV Pavo Pico (Iniciación) - 129€</option>
+                            <option value="199">Racer 4 (Intermedio) - 199€</option>
+                            <option value="350">Iflight Nazgul Eco (Intermedio) - 350€</option>
+                            <option value="550">Racer 5 (Experto) - 550€</option>
+                            <option value="999">DJI Avata 2 (Experto) - 999€</option>
                             <option value="0">No quiero comprar drones, solo busco accesorios</option>
                         </select>
                     </label>
@@ -60,6 +64,7 @@
                 <button type="submit">Enviar</button>
             </form>
         </main>
+
         <!--FOOTER-->
         <footer>
             <div class="footer-container">
@@ -88,7 +93,6 @@
                     </div>
                 </div>
             </div>
-
         </footer>
         <!--Insertamos la ubicación de nuestra hoja de Javascript para el form-->
         <script src="../js/javascript.js"></script>

@@ -1,0 +1,20 @@
+ [
+  {
+      "imagen": "../images/mundial_drones.jpg",
+      "title": "Llega el mundial de drones a españa",
+      "content": "Este verano, Madrid acogerá la 10ª edición del campeonato mundial de drones. Este campeonato se disputa por fases a lo largo de todo el año y en diferentes localizaciones por todo el mundo.",
+      "date": "02-02-2025"
+  },
+  {
+      "imagen": "../images/dron_rapido.jpg",
+      "title": "El dron más rápido del mundo (350km/h)",
+      "content": "Este dron, desarrollado por la empresa RED BULL, es capaz de seguir a los F1 y poder grabar imágenes cinematográficas de los coches. ¡Alcanza los 300km/h en tan sólo 4 segundos!.",
+      "date": "07-02-2025"
+  },
+  {
+      "imagen": "../images/dron_reparto.jpg",
+      "title": "El reparto con drones, cada vez más cerca",
+      "content": "Las grandes empresas de reparto están muy interesadas en este tema. Algunas de ellas están haciendo grandes avances en la entrega de material sanitario en Alemania y Reino Unido.",
+      "date": "15-02-2025"
+  }
+]

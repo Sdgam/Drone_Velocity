@@ -1,0 +1,38 @@
+[
+    {
+        "imagen": "../images/racerx.jpg",
+        "nombre": "Racer X",
+        "descripcion": "Pequeño y manejable. El Racer X es el dron perfecto para iniciarse en el mundo del FPV.",
+        "precio": "99€"
+    },
+    {
+        "imagen": "../images/pavopico.jpg",
+        "nombre": "BetaFPV Pavo Pico",
+        "descripcion": "Si te gustan los drones pequeños pero potentes y con buena calidad de video, ¡este es tu dron!.",
+        "precio": "129€"
+    },
+    {
+        "imagen": "../images/racer4.jpg",
+        "nombre": "Racer 4",
+        "descripcion": "El dron de carreras perfecto para cuando ya sabes volar y buscas más potencia y una calidad de video superior.",
+        "precio": "199€"
+    },
+    {
+        "imagen": "../images/nazgul_eco.jpg",
+        "nombre": "IFlight Nazgul ECO",
+        "descripcion": "Con unas características superiores al Racer4, el Nazgul ECO permite grabar vídeos increíbles haya donde vayas.",
+        "precio": "350€"
+    },
+    {
+        "imagen": "../images/racer5.jpg",
+        "nombre": "Racer 5",
+        "descripcion": "Para expertos pilotos, este es el último modelo diseñado por DRL y cuenta con las mejores prestaciones del mercado en autonomía y calidad de video.",
+        "precio": "550€"
+    },
+    {
+        "imagen": "../images/avata2.jpg",
+        "nombre": "DJI Avata 2",
+        "descripcion": "El último dron diseñado por la famosa marca DJI. Con un tamaño y peso muy ligeros este dron es esencial a la hora de ir de viaje.",
+        "precio": "999€"
+    }
+]

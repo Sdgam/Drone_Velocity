@@ -94,37 +94,3 @@ function calcularRuta() {
     });
 }
 
-// CARGA DINAMICA DE SECCIÓN NOTICIAS -----------------------------------------------------------------------------------------
-
-const news1 = document.getElementById('news1');
-const news2 = document.getElementById('news2');
-const news3 = document.getElementById('news3');
-
-fetch('../data/new1.json')
-    .then(response => response.json())
-    .then(data => {
-        let contenido = ''
-        contenido +=`<p>${data.noticia1.title}</p>`
-    })
-
-fetch('../data/new2.json')
-    .then(response => response.json())
-    .then(data => {
-        news2.innerHTML = `
-            <p>${data.title}</p>
-            <p>${data.date}</p>
-            <p>${data.content}</p>
-        `
-    })
-
-fetch('../data/new3.json')
-    .then(response => response.json())
-    .then(data => {
-        news3.innerHTML = `
-            <p>${data.title}</p>
-            <p>${data.date}</p>
-            <p>${data.content}</p>
-        `
-    })
-
-
