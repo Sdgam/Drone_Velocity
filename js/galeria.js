@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
     fetch('../data/galeria.json')
     .then(response => response.json())
     .then(data =>{
-        const galeria = document.querySelector('.contenedor-galeria')
+        const galeriag = document.querySelector('.contenedor-galeria')
         data.forEach(drone => {
             const droneHTML = 
             `
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function(){
                 </div>
             </div>
             `;
-                galeria.insertAdjacentHTML("beforeend", droneHTML)
+                galeriag.insertAdjacentHTML("beforeend", droneHTML)
         })
     })
     .catch(error => console.error('Error al obtener los datos: ', error))
