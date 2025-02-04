@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
 
-    fetch('../data/news.json')
+    fetch('./data/news.json')
     .then(response => response.json())
     .then(data =>{
         const galeria = document.querySelector('.contenedor-galeria')
